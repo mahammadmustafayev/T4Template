@@ -26,5 +26,14 @@
                      
                      }
                     """);<#
+            #region StreamWriter
+                //#>using (StreamWriter sw = new StreamWriter(classPath + data + ".cs"))
+                //{
+                //    sw.WriteLine("namespace T4TemplateTask.Models;");
+                //    sw.WriteLine("public class <#=data#>");
+                //    sw.WriteLine("{");
+                //    sw.WriteLine("}");
+                //}<# 
+            #endregion
             }
 #>
